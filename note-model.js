@@ -1,14 +1,15 @@
 
 
+(function(exports) {
+  function Note () {
 
-function Note() {
-}
+  }
+
+  Note.prototype.language = function () {
+    return ('My favourite language is Javascript');
+  };
 
 
-Note.prototype.language = function() {
-  console.log("My favourite language is Javascript")
-}
-
-
-var note = new Note()
- note.language();
+  var note = new Note();
+  console.log(note.language());
+}(this));
