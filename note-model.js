@@ -1,15 +1,14 @@
-
-
-(function(exports) {
-  function Note () {
-
-  }
-
-  Note.prototype.language = function () {
-    return ('My favourite language is Javascript');
+(function (exports) {
+  function Note (text) {
+    this.text = text;
   };
 
+  Note.prototype.getCurrentNote = function () {
+    return this.text;
+  };
 
-  var note = new Note();
-  console.log(note.language());
-}(this));
+  var note = new Note('go shopping');
+  return note.getCurrentNote();
+
+  exports.Note = Note;
+})(this);
