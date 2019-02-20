@@ -1,9 +1,10 @@
 function isANoteListView(note) {
   let constructor_name = "NoteListView"
-  assert.isANoteListView(isANoteListView.__proto__.constructor_name === constructor_name)
+  let noteListView = new NoteListView();
+  assert.isTrue(noteListView.__proto__.constructor.name === constructor_name)
 };
   isANoteListView();
-// 
+//
 // function
 //
 // <ul><li><div>Favourite food: pesto</div></li>
