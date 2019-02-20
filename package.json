@@ -1,0 +1,26 @@
+{
+  "name": "notebook",
+  "version": "1.0.0",
+  "description": "![Notes app home page mockup](images/notes-home-page-mock-up.png) ![Notes app note page mockup](images/notes-note-page-mock-up.png)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakePEGG/NotesBook-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakePEGG/NotesBook-/issues"
+  },
+  "homepage": "https://github.com/JakePEGG/NotesBook-#readme",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "node": "^11.10.0"
+  }
+}
