@@ -5,6 +5,6 @@ function returnNoteText(){
   var notedouble = new NoteDouble("Erin is helpful")
   var notelist = new NoteList()
   notelist.addToList(notedouble)
-  assert.isTrue(notelist.printlist()[0] === "Erin is helpful")
+  assert.isTrue(notelist.printList()[0].text === "Erin is helpful")
 };
   returnNoteText();
