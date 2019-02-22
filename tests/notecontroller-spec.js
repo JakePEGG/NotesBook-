@@ -12,7 +12,7 @@ function TestHTMLlist(){
 
     }
 
-    assert.isTrue(notecontroller.wrapNotesInHtml(view) === "<ul><li><div>Favourite drink: seltzer</div></li></ul>")
+    assert.isTrue(notecontroller.wrapNotesInHtml(view) === ("<ul><li><div>" + "Favourite drink: sel" + "</div></li></ul>"));
 
     console.log("TestHTMLlist is passing")
   }

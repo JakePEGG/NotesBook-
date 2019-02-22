@@ -16,6 +16,6 @@ function displayNoteLists() {
   noteList.addToList(note2)
   // console.log(noteList)
   // console.log(noteListView.getHTML())
-  assert.isTrue(noteListView.getHTML() === '<ul><li><div>Favourite food: Chicken</div></li><li><div>Favourite drink: H20</div></li></ul>')
+  assert.isTrue(noteListView.getHTML() === ("<ul><li><div>" + "Favourite food: Chic" + "</div></li><li><div>" + "Favourite drink: H20" + "</div></li></ul>"))
 };
 displayNoteLists();
