@@ -12,7 +12,10 @@ function displayNoteLists() {
   let note = new Note("Favourite food: Chicken")
   let note2 = new Note("Favourite drink: H20")
   noteList.addToList(note)
+  // console.log(noteList)
   noteList.addToList(note2)
+  // console.log(noteList)
+  // console.log(noteListView.getHTML())
   assert.isTrue(noteListView.getHTML() === '<ul><li><div>Favourite food: Chicken</div></li><li><div>Favourite drink: H20</div></li></ul>')
 };
 displayNoteLists();
